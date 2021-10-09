@@ -176,9 +176,6 @@ namespace blackjackGUI
         }
 
         
-        
-        
     }
 }
-
  

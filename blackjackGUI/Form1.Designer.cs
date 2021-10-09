@@ -145,13 +145,12 @@ namespace blackjackGUI
             this.loseLabel.Size = new System.Drawing.Size(99, 29);
             this.loseLabel.TabIndex = 12;
             this.loseLabel.Text = "Derrotas: ";
-            
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(140, 16);
+            this.label1.Location = new System.Drawing.Point(247, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(254, 46);
             this.label1.TabIndex = 13;
@@ -205,8 +204,7 @@ namespace blackjackGUI
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Blackjack";
-            this.Text = "UPB\'s Blackjack";
-            
+            this.Text = "Blackjack Game";
             this.ResumeLayout(false);
             this.PerformLayout();
 
