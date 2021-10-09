@@ -51,7 +51,7 @@ namespace clases.Persona
 
             if (hand.Count == 2 && ((hand[0].Symbol == Symbol.Ace && (int)hand[1].Symbol >= 10) || (hand[1].Symbol == Symbol.Ace && (int)hand[0].Symbol >= 10)))
             {
-                return 2;
+                return 21;
             }
 
             if (puntuacion > 21)
